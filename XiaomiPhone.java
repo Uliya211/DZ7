@@ -9,6 +9,5 @@ public class XiaomiPhone extends Phone{
 
     @Override
     public void info() {
-        super.info();
     }
 }

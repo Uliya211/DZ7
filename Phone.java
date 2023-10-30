@@ -29,13 +29,8 @@ public abstract class Phone {
         this.weight = weight;
     }
 
-    public void receiveCall(String name) {
-        System.out.println("Звонит " +name);
-    }
+
     public abstract void info();
-    {
-        System.out.printf("Number: %s \tModel: %s \tWeight: %d \n", number, model, weight);
-    }
 
 
 }

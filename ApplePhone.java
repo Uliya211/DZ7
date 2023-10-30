@@ -6,6 +6,5 @@ public class ApplePhone extends Phone{
 
     @Override
     public void info() {
-        super.info();
     }
 }

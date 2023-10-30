@@ -6,12 +6,10 @@
 public class Main {
     public static void main(String[] args) {
         Phone p=new SamsungPhone("89130604846","S1310",120);
-        p.receiveCall("Лера");
         p.info();
         System.out.println(p.getNumber());
 
         Phone p1=new XiaomiPhone("89201890000","KT0110");
-        p1.receiveCall("Витя");
         p1.info();
         System.out.println(p1.getNumber());
 

@@ -9,7 +9,6 @@ public class SamsungPhone extends Phone{
         return super.getNumber();
     } */
     @Override
-    public void info() {
-        super.info();
+    public void info(){
     }
 }
